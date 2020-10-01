@@ -11,7 +11,7 @@ class Anagram
     counter = 0
     @words.each { |anagram|
       if anagram.length == word.length 
-        
+        temp_word = anagram.split(//).sort
       end
       counter = 0
       
