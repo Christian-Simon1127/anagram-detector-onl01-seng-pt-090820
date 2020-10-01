@@ -12,11 +12,16 @@ class Anagram
     @words.each { |anagram|
       if anagram.length == word.length 
         temp_word = anagram.split(//).sort
+        compare = word.split(//).sort
+        if compare == temp_word
+          ret_arr << anagram
+        end
       end
       counter = 0
       
       
     }
+    ret_arr
   end 
   
   
