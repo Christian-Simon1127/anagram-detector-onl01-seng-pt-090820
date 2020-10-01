@@ -8,9 +8,12 @@ class Anagram
   
   def match(word)
     ret_arr = []
+    counter = 0
     @words.each { |anagram|
-      if
-      
+      if anagram.length == word.length 
+        
+      end
+      counter = 0
       
       
     }
