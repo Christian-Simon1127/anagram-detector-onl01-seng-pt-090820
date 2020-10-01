@@ -6,7 +6,15 @@ class Anagram
     :words = words
   end 
   
-  
+  def match(word)
+    ret_arr = []
+    @words.each { |anagram|
+      if
+      
+      
+      
+    }
+  end 
   
   
 end 
